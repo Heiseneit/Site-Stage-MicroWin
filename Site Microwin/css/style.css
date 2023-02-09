@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+
+* {
+    font-family: 'Montserrat';
+}
+
+body {
+    margin: 0 auto;
+}
+
+/* Tête de page */
+
+header.header {
+    display: flex;
+    align-items: center;
+    background-color: black
+}
+
+header.header img{
+    width: 150px;
+}
+
+/* Les Backgrounds */
+
+section.top-page {
+    background: url('../images/Index.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+section.contact {
+    background: url('../images/Background3.jpg');
+    background-size: cover;
+    height: 10em;
+}
+
+section.services {
+    background: url('../images/FondNoir.png');
+    background-size: cover;
+    height: 5em;
+}
+
+section.maintenance {
+    background: url('../images/FondNoir.png');
+    background-size: cover;
+    height: 5em;
+}
+
+mark {
+    background-color: black;
+    color: white;
+  }
+
+body {
+    color:black;
+    background-color:white;
+    background-image:url(../images/Index2.jpg);
+    margin:0;
+    }
+
+    body.contact {
+        color:black;
+        background-color:white;
+        background-image:url(../images/Background3.jpg);
+        margin:0;
+        }
+
+/* Page De bienvenue */
+
+.big-title {
+    color: white;
+    font-size: 80px;
+    padding: 20px 50px;
+}
+
+/* Menu de navigation */
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    margin-left: 30px;
+}
+
+nav.nav li{
+    color: white;
+}
